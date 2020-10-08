@@ -1,0 +1,20 @@
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+} 
+
+.blackicon {
+    color: black;
+}
+
+.navbar {
+    background: white !important;
+    .navbar-brand {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+}

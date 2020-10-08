@@ -1,0 +1,322 @@
+.banner_proyectos {
+    background-image: url(../../img/banner_proyectos.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-bakcground-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    padding: 40px 20px 20px !important;
+    color: white;
+
+    h2 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-left: 3rem;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1rem;
+        padding-right: 1rem;
+    }
+    a {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        border-radius: 3rem;
+        padding: .6rem 1.5rem;
+        border: solid black;
+        border-width: 1px;
+        background-color: whitesmoke;
+        @media (min-width:992px){
+            margin-top: 1rem;
+        } 
+    }
+}
+.section_proyectos {
+    @media (min-width: 756px) {
+        padding-left: 40px !important;
+    }
+    .card_container {
+        padding: 1rem;
+        @media (min-width:992px){
+            padding: 1rem 1rem 2rem 0rem;
+        }  
+        .card {
+            border-radius: 1rem;
+            .card-body {
+                .badge-dark {
+                    background-color: rgb(59, 59, 59) !important;
+                }
+                .badge {
+                    font-size: 1rem;
+                    background-color: fuchsia;
+                }
+                .card-title {
+                    margin-top: 2rem;
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+                i {
+                    display: block !important;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+                .boton_postulacion {
+                    margin-top: 2rem !important;
+                    background-color: black !important;
+                    color: white !important;
+                }
+                .card-link {
+                    margin-top: 1rem !important;
+                    display: block;
+                    text-align: center;
+                    margin: 0 auto;
+                    border: solid black;
+                    border-width: 1px;
+                    border-radius: 3rem;
+                    padding: .5rem 1.5rem;
+                    width: 150px;
+                    max-width: 150px;
+                }
+            }
+        }
+    }
+}
+.section_postulaciones {
+    .card_container_postulaciones {
+        padding: 1rem;
+        @media (min-width:992px){
+            padding: 1rem 2rem;
+        }   
+    }
+    .card {
+        border-radius: 1rem;
+        .card-body {
+            .badge-dark {
+                background-color: rgb(59, 59, 59) !important;
+            }
+            .badge {
+                font-size: 1rem;
+                background-color: fuchsia;
+            }
+            .card-title {
+                margin-top: 2rem;
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+            }
+            i {
+                display: block !important;
+                text-align: center;
+                margin: 0 auto;
+            }
+            .boton_postulacion {
+                margin-top: 2rem !important;
+                background-color: black !important;
+                color: white !important;
+            }
+            .card-link {
+                margin-top: 1rem !important;
+                display: block;
+                text-align: center;
+                margin: 0 auto;
+                border: solid black;
+                border-width: 1px;
+                border-radius: 3rem;
+                padding: .5rem 1.5rem;
+                width: 150px;
+                max-width: 150px;
+            }
+        }
+    }
+}
+#nav-proyectos {
+    .flex-column {
+        padding-left: 6rem;
+        padding-right: 6rem;
+        @media (min-width: 756px) {
+            padding-left: 2rem;
+        }
+        .back_button {
+            margin-bottom: 1rem !important;
+            height: 2rem;
+            max-height: 2rem;
+        }
+        .btn-group {
+            margin-top: .5rem;
+            .btn-secondary {
+                color: black;
+                background-color: whitesmoke;
+                border-color: whitesmoke;
+            }
+        }
+    }
+}
+.section_proyecto {
+    .card {
+        border-radius: 1.5rem;
+        .card-body {
+            padding: 1rem 2rem;
+            .badge {
+                background-color: fuchsia;
+                font-size: 1.5rem;
+            }
+            .card-title {
+                font-size: 1.5rem;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 900;
+                @media (min-width: 992px) {
+                    font-size: 2rem;
+
+                }
+            }
+            .lg_margin {
+                @media (min-width:756px) {
+                    margin-top: 2rem;
+                }
+            }
+            .xs_margin {
+                margin-top: 1rem;
+                @media (min-width:756px) {
+                    margin-top: 0rem;
+                }
+            }
+            .publicidad_badge {
+                background-color: rgb(162, 50, 184);
+                color: white;
+                font-size: 1rem;
+                font-weight: lighter;
+                padding: .5rem 2rem;
+                margin-top: .5rem;
+            }
+            .cm_badge {
+                background-color: rgb(245, 82, 150);
+                color: white;
+                font-size: 1rem;
+                font-weight: lighter;
+                padding: .5rem 2rem;
+                margin-top: .5rem;
+            }
+            button {
+                background-color: black;
+                color: white;
+                font-size: 1rem;
+                padding: .5rem 2rem;
+                border-radius: 2rem;
+                @media (min-width:992px){
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+.section_similares {
+    .overflow_container {
+        height: 350 !important;
+        max-height: 350px;
+        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        @media (min-width:756px){
+            max-height: 750px;
+        }
+        @media (min-width:992px){
+            max-height: 600px;
+        }
+        @media (min-width:1200px){
+            max-height: 550px;
+        }
+    }
+    padding: 1.5rem!important;
+    @media (min-width:756px) {
+        padding: 2rem 1.5rem 1.5rem 0rem !important;  
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    hr {
+        border-top: 1px solid grey;
+        margin-top: .1rem;
+    }
+    .card-deck {
+        
+        .card {
+            background-color: black;
+            color: white;
+            border-radius: 1.5rem;
+            margin: 0 auto;
+            .card-body {
+                padding: .5rem 1.25rem;
+                .card-title {
+                    font-family: 'Roboto Condensed';
+                    margin-top: .5rem;
+                    margin-left: 1.5rem;
+                }
+                .badge {
+                    padding: .5rem 2rem;
+                    font-weight: normal;
+                    margin-top: .5rem;
+                }
+                .mkt-badge {
+                    background-color: yellowgreen;
+                    color: black;
+                }
+                .pb-badge {
+                    background-color: rgb(162, 50, 184);
+                }
+                .dsg-badge {
+                    background-color: aqua;
+                    color: black;
+                }
+            }
+        }
+    }
+    
+}
+.section_publicar {
+    padding: 2rem !important;
+
+    .title {
+        @media (min-width:1200px) {
+            margin-top: 3rem;
+            padding: 2rem 3rem !important;
+        }
+
+    }
+    .icon_container { 
+        margin-top: 2rem;
+        @media (min-width:756px) {
+            margin-top: 0;
+        }
+        .icono {
+            width: 100px;
+        }
+        h3 {
+            @media (min-width: 756px) {
+                font-size: 1.3rem;
+            }
+            @media (min-width: 992px) {
+                font-size: 1.75rem;
+            }
+        }
+       
+
+    }
+    .btn-publicar {
+        margin: 0 auto !important;
+        background-color: black;
+        color: white;
+        margin-top: 2rem !important;
+        padding: .6rem 3rem;
+        border-radius: 1.5rem;
+        font-size: 1.3rem;
+    }
+    
+}
