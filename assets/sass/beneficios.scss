@@ -1,0 +1,184 @@
+.solicitar_container {
+    padding: 2rem !important;
+    @media (min-width: 756px) {
+        padding: 5rem !important;
+    }
+    @media (min-width: 1200px) {
+        padding: 5rem 10rem !important;
+    }
+
+    .card {
+        font-family: 'Roboto', sans-serif;
+        .card-body {
+            @media (min-width: 756px) {
+                padding: 2rem !important;
+            }
+            .card-title {
+                font-weight: bolder;
+                @media (min-width: 992px) {
+                    font-size: 1.7rem;
+                }
+            }
+            .card-text {
+                margin-top: 2rem;
+                font-weight: normal;
+                @media (min-width: 992px) {
+                    font-size: 1rem;
+                }
+            }
+            .date {
+                margin-top: 3rem;
+                font-size: .8rem;
+                font-weight: lighter;
+            }
+            .card-link {
+                margin-top: .1rem !important;
+                border: 2px solid black;
+                border-radius: 2rem;
+                padding: .5rem 3rem;
+                background-color: white;
+            }
+            
+        }
+    }
+    
+}
+.top10_container {
+    padding: 1rem !important;
+    
+    table {
+        margin: 0 auto;
+        border-radius: 1rem;
+        tr {
+            padding: 5px !important;
+            @media (min-width: 756px) {
+                padding: 1.5rem!important;
+            }
+            @media (min-width: 992px) {
+                padding: 2rem!important;
+            }
+            @media (min-width: 1200px) {
+                padding: 3rem!important;
+            }
+            th {
+                padding: 5px !important;
+                font-size: .8rem;
+                @media (min-width: 756px) {
+                    padding: 1.5rem!important;
+                }
+                @media (min-width: 992px) {
+                    padding: 2rem!important;
+                }
+                @media (min-width: 1200px) {
+                    padding: 3rem 3rem 1rem 3rem !important;
+                }
+            }
+            
+            td {
+                padding: 5px !important;
+                font-size: .9rem;
+                @media (min-width: 756px) {
+                    padding: 1.5rem!important;
+                }
+                @media (min-width: 992px) {
+                    padding: 2rem!important;
+                }
+                @media (min-width: 1200px) {
+                    padding: 3rem!important;
+                }
+            }
+        }
+    }
+}
+#modal {
+    .modal-header {
+        background-color: black;
+        padding: 0rem .2rem .2rem;
+        .close {
+            font-size: 2.5rem !important;
+            color: white;
+            opacity: 1;
+            text-shadow: none;
+            padding: .8rem 1rem;
+        }
+    }
+    .modal-body {
+        input {
+            border-radius: .5rem;
+            height: 3rem;
+            width: 15rem;
+            border: 2px solid black !important;
+        }
+    }
+    .modal-footer {
+        border-top: none;
+        a {
+            background-color: black;
+            color: white;
+            border-radius: .8rem;
+            padding-left: 2rem;
+        }
+        i{
+            color: white;
+        }
+    }
+}
+.beneficios_container {
+    padding: 0rem 2rem 5rem !important;
+    @media (min-width: 992px) {
+        padding: 0rem 15rem 2rem !important;
+    }
+    .card {
+        margin-top: 3rem;
+        border: none;
+        border-radius: 3rem;
+        .card-header {
+            background-color: white;
+            height: 6rem;
+            border: inherit;
+            border-radius: 3rem;
+            padding: 1.5rem 1.25rem 1rem !important;
+            @media (min-width:756px) {
+                padding: 1rem 1.25rem !important;
+            }
+            h2 {
+                .btn {
+                    font-weight: bold !important;
+                    @media (min-width:756px) {
+                        font-size: 1.5rem;
+                    }
+                    input[type=checkbox] {
+                        margin-right: 1rem;
+                        /* Double-sized Checkboxes */
+                        -ms-transform: scale(2); /* IE */
+                        -moz-transform: scale(2); /* FF */
+                        -webkit-transform: scale(2); /* Safari and Chrome */
+                        -o-transform: scale(2); /* Opera */
+                        transform: scale(2);
+                        padding: 10px;
+                    }
+                } 
+            }
+        }
+        .card-body {
+            border: none !important;
+            background-color: white;
+            
+        }
+    }
+}
+.button_container {
+    padding: 1rem 2rem 4rem !important;
+
+    a {
+        background-color: black;
+        color: white;
+        border-radius: 2rem;
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        font-weight: bold;
+        @media (min-width: 992px) {
+            font-size: 1.3rem;
+        }
+    }
+}

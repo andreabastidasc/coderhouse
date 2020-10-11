@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 </head>
@@ -24,7 +24,7 @@
             </div>
             <ul class="list-unstyled components">
                 <li>
-                    <a href="#">
+                    <a href="../index.html">
                         <i class="fas fa-th-large fa-sm blackicon"></i>
                         <p>Dashboard</p>
                     </a>
@@ -66,7 +66,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./views/indexproyectos.html">
+                    <a href="indexproyectos.html">
                         <i class="fas fa-rocket fa-sm blackicon"></i>
                         <p>Proyectos</p>
                     </a>
@@ -89,24 +89,6 @@
             </ul>
         </nav>
         <div id="content">
-          <div class="modal fade" id="modal" tabindex="-1"  aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-center">
-                  <p>Ingresa el código que recibiste en tu email por formar parte del TOP 10% para reclamar tus beneficios</p>
-                  <input type="text">
-                </div>
-                <div class="modal-footer">
-                  <a href="./views/beneficios.html" type="button" class="btn">Enviar<i class="fas fa-angle-right ml-3"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
         <header  class="container-fluid no-gutters">
             <div class="row no-gutters">
                 <div class="col-12">
@@ -192,123 +174,111 @@
           <div class="solicitar_container col-12">
             <div class="card text-center shadow">
               <div class="card-body">
-                <h5 class="card-title">Convertite en el TOP 10% de tu curso y accedé a increíbles beneficios.</h5>
-                <p class="card-text">Sumá puntos asistiendo a clases, completando las valoraciones,
-                  aprobando desafíos y obteniendo una calificación final para acceder a proyectos pagos.
+                <h5 class="card-title">BENEFICIOS TOP 10.</h5>
+                <p class="card-text">
+                    Para elegir los beneficios a los que quieras acceder, necesitamos que selecciones
+                    todos aquellos que te interesan y una vez que lo solicites, una mentora te va a contactar
+                    para gestionarlos.
                 </p>
-                <p class="date">El resultado final del TOP 10 fue el 22/07/2020</p>
-                <button data-toggle="modal" data-target="#modal" class="card-link">Solicitar beneficios</>
              </div>
             </div>
           </div>
-          <div class="top10_container col-12">
-            <table class="shadow">
-              <tr>
-                <th></th>
-                <th>
-                  Asistencia
-                </th>
-                <th>
-                  Ausencia
-                </th>
-                <th>
-                  Valoraciones
-                </th>
-                <th>
-                  Desafíos
-                </th>
-                <th>
-                  Proyecto final
-                </th>
-              </tr>
-              <tr>
-                <td>
-                  <i class="fas fa-trophy"></i>
-                  Andrea
-                </td>
-                <td>
-                  30
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  30
-                </td>
-                <td>
-                  45
-                </td>
-                <td>
-                  10
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <i class="fas fa-trophy"></i>
-                  Ailen
-                </td>
-                <td>
-                  30
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  30
-                </td>
-                <td>
-                  45
-                </td>
-                <td>
-                  10
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <i class="fas fa-trophy"></i>
-                  Daniel
-                </td>
-                <td>
-                  30
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  30
-                </td>
-                <td>
-                  45
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <i class="fas fa-trophy"></i>
-                  Nahuel
-                </td>
-                <td>
-                  30
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  30
-                </td>
-                <td>
-                  45
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-            </table>
+          <div class="beneficios_container col-12">
+            <div class="accordion" id="accordionExample">
+                <div class="card shadow">
+                  <div class="card-header shadow-sm" id="headingOne">                    
+                    <h2 class="mb-0"> 
+                      <button class="btn btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <input type="checkbox">
+                        Servicio de talento (Armado de CV, Linkedin y Portfolio)
+                        <i class="fas fa-chevron-down"></i>
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card shadow">
+                  <div class="card-header shadow-sm" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <input type="checkbox">
+                        Proyecto real freelance
+                        <i class="fas fa-chevron-down"></i>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card shadow">
+                  <div class="card-header shadow-sm" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <input type="checkbox">
+                        Convertite en tutor de Coder
+                        <i class="fas fa-chevron-down"></i>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card shadow">
+                    <div class="card-header shadow-sm" id="headingFour">
+                      <h2 class="mb-0">
+                        <button class="btn btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <input type="checkbox">
+                          Cursada bonificada
+                          <i class="fas fa-chevron-down"></i>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card shadow">
+                    <div class="card-header shadow-sm" id="headingFive">
+                      <h2 class="mb-0">
+                        <button class="btn btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          <input type="checkbox">
+                          Cupón de descuento
+                          <i class="fas fa-chevron-down"></i>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+              </div>  
           </div>
-        
+          
         </main>
+        <section class="row no-gutters">
+            <div class="col-12 button_container">
+                <div class="d-flex flex-row justify-content-end">
+                    <a href="response.html">
+                        Solicitar beneficios
+                    </a>
+                </div>
+            </div>
+        </section>
         </div>
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
@@ -317,6 +287,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <script src="./js/navbar.js"></script>
+    <script src="../js/navbar.js"></script>
 </body>
 </html>

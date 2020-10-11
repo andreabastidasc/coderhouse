@@ -1,3 +1,174 @@
+.accordion {
+  overflow-anchor: none; }
+  .accordion > .card {
+    overflow: hidden; }
+    .accordion > .card:not(:last-of-type) {
+      border-radius: 3rem !important; }
+    .accordion > .card:not(:first-of-type) {
+      border-radius: 3rem !important; }
+    .accordion > .card > .card-header {
+      border-radius: 3rem !important;
+      margin-bottom: 1px; }
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25); }
+
+.solicitar_container {
+  padding: 2rem !important; }
+  @media (min-width: 756px) {
+    .solicitar_container {
+      padding: 5rem !important; } }
+  @media (min-width: 1200px) {
+    .solicitar_container {
+      padding: 5rem 10rem !important; } }
+  .solicitar_container .card {
+    font-family: 'Roboto', sans-serif; }
+    @media (min-width: 756px) {
+      .solicitar_container .card .card-body {
+        padding: 2rem !important; } }
+    .solicitar_container .card .card-body .card-title {
+      font-weight: bolder; }
+      @media (min-width: 992px) {
+        .solicitar_container .card .card-body .card-title {
+          font-size: 1.7rem; } }
+    .solicitar_container .card .card-body .card-text {
+      margin-top: 2rem;
+      font-weight: normal; }
+      @media (min-width: 992px) {
+        .solicitar_container .card .card-body .card-text {
+          font-size: 1rem; } }
+    .solicitar_container .card .card-body .date {
+      margin-top: 3rem;
+      font-size: .8rem;
+      font-weight: lighter; }
+    .solicitar_container .card .card-body .card-link {
+      margin-top: .1rem !important;
+      border: 2px solid black;
+      border-radius: 2rem;
+      padding: .5rem 3rem;
+      background-color: white; }
+
+.top10_container {
+  padding: 1rem !important; }
+  .top10_container table {
+    margin: 0 auto;
+    border-radius: 1rem; }
+    .top10_container table tr {
+      padding: 5px !important; }
+      @media (min-width: 756px) {
+        .top10_container table tr {
+          padding: 1.5rem !important; } }
+      @media (min-width: 992px) {
+        .top10_container table tr {
+          padding: 2rem !important; } }
+      @media (min-width: 1200px) {
+        .top10_container table tr {
+          padding: 3rem !important; } }
+      .top10_container table tr th {
+        padding: 5px !important;
+        font-size: .8rem; }
+        @media (min-width: 756px) {
+          .top10_container table tr th {
+            padding: 1.5rem !important; } }
+        @media (min-width: 992px) {
+          .top10_container table tr th {
+            padding: 2rem !important; } }
+        @media (min-width: 1200px) {
+          .top10_container table tr th {
+            padding: 3rem 3rem 1rem 3rem !important; } }
+      .top10_container table tr td {
+        padding: 5px !important;
+        font-size: .9rem; }
+        @media (min-width: 756px) {
+          .top10_container table tr td {
+            padding: 1.5rem !important; } }
+        @media (min-width: 992px) {
+          .top10_container table tr td {
+            padding: 2rem !important; } }
+        @media (min-width: 1200px) {
+          .top10_container table tr td {
+            padding: 3rem !important; } }
+
+#modal .modal-header {
+  background-color: black;
+  padding: 0rem .2rem .2rem; }
+  #modal .modal-header .close {
+    font-size: 2.5rem !important;
+    color: white;
+    opacity: 1;
+    text-shadow: none;
+    padding: .8rem 1rem; }
+
+#modal .modal-body input {
+  border-radius: .5rem;
+  height: 3rem;
+  width: 15rem;
+  border: 2px solid black !important; }
+
+#modal .modal-footer {
+  border-top: none; }
+  #modal .modal-footer a {
+    background-color: black;
+    color: white;
+    border-radius: .8rem;
+    padding-left: 2rem; }
+  #modal .modal-footer i {
+    color: white; }
+
+.beneficios_container {
+  padding: 0rem 2rem 5rem !important; }
+  @media (min-width: 992px) {
+    .beneficios_container {
+      padding: 0rem 15rem 2rem !important; } }
+  .beneficios_container .card {
+    margin-top: 3rem;
+    border: none;
+    border-radius: 3rem; }
+    .beneficios_container .card .card-header {
+      background-color: white;
+      height: 6rem;
+      border: inherit;
+      border-radius: 3rem;
+      padding: 1.5rem 1.25rem 1rem !important; }
+      @media (min-width: 756px) {
+        .beneficios_container .card .card-header {
+          padding: 1rem 1.25rem !important; } }
+      .beneficios_container .card .card-header h2 .btn {
+        font-weight: bold !important; }
+        @media (min-width: 756px) {
+          .beneficios_container .card .card-header h2 .btn {
+            font-size: 1.5rem; } }
+        .beneficios_container .card .card-header h2 .btn input[type=checkbox] {
+          margin-right: 1rem;
+          /* Double-sized Checkboxes */
+          -ms-transform: scale(2);
+          /* IE */
+          -moz-transform: scale(2);
+          /* FF */
+          -webkit-transform: scale(2);
+          /* Safari and Chrome */
+          -o-transform: scale(2);
+          /* Opera */
+          transform: scale(2);
+          padding: 10px; }
+    .beneficios_container .card .card-body {
+      border: none !important;
+      background-color: white; }
+
+.button_container {
+  padding: 1rem 2rem 4rem !important; }
+  .button_container a {
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: bold; }
+    @media (min-width: 992px) {
+      .button_container a {
+        font-size: 1.3rem; } }
+
 .banner_proyectos {
   background-image: url(../../img/banner_proyectos.jpg);
   background-attachment: fixed;

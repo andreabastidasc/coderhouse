@@ -1,0 +1,29 @@
+//
+// Accordion
+//
+  
+.accordion {
+    overflow-anchor: none;
+  
+    > .card {
+      overflow: hidden;
+  
+      &:not(:last-of-type) {
+        border-radius: 3rem !important;
+      }
+  
+      &:not(:first-of-type) {
+        border-radius: 3rem !important;
+      }
+  
+      > .card-header {
+        border-radius: 3rem !important;
+        margin-bottom: 1px;
+      }
+    }
+}
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
+}
+  
