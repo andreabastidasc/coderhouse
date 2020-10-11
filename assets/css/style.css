@@ -169,6 +169,22 @@
       .button_container a {
         font-size: 1.3rem; } }
 
+.response_container {
+  padding: 2rem !important; }
+  @media (min-width: 756px) {
+    .response_container {
+      padding: 5rem !important; } }
+  @media (min-width: 1200px) {
+    .response_container {
+      padding: 5rem 10rem !important; } }
+  .response_container .card-title {
+    margin-bottom: 0; }
+  .response_container .second_date {
+    font-weight: lighter !important;
+    font-size: 1rem;
+    margin-top: 0;
+    font-style: italic; }
+
 .banner_proyectos {
   background-image: url(../../img/banner_proyectos.jpg);
   background-attachment: fixed;
